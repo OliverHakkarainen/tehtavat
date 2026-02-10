@@ -1,16 +1,16 @@
-print("tehtävä_1")
+print("tehtava_1")
 name = input("Anna nimesi")
 print("hello",  name)
 
 
-print("tehtävä_2")
+print("tehtava_2")
 import math
 ympyran_sade = int(input("Anna sade"))
 pinta_ala = math.pi *(ympyran_sade**2)
 print(f"ympyran sade on {ympyran_sade}: ja pinta-ala on {pinta_ala: .2f}")
 
 
-print("tehtävä_3")
+print("tehtava_3")
 kanta = float(input("Anna kanta"))
 korkeus = float(input("Anna korkeus"))
 suorakulmion_pinta_ala = (kanta*korkeus)
@@ -19,7 +19,7 @@ print(f"suorakulmion pinta-ala on {suorakulmion_pinta_ala: .2f}")
 print(f"suorakulmion piiri on {suorakulmion_piiri: .2f}")
 
 
-print("tehtävä_4")
+print("tehtava_4")
 kokonaisluku1 = int(input("Anna kokonaisluku1"))
 kokonaisluku2 = int(input("Anna kokonaisluku2"))
 kokonaisluku3 = int(input("Anna kokonaisluku3"))
@@ -31,20 +31,20 @@ print(f"kl_tulo on {kl_tulo: .2f}")
 print(f"kl_keskiarvo on {kl_keskiarvo: .2f}")
 
 
-print("tehtävä_5")
-leiviskä = float((input("anna leiviskät")))
+print("tehtava_5")
+leiviska = float((input("anna leiviskat")))
 naula = float((input("anna naulat")))
 luoti = float((input("anna luodit")))
-leiviskä_luoti = leiviskä * 20 * 32
+leiviska_luoti = leiviska * 20 * 32
 naula_luoti = naula * 32
-yhteensa_luoti = luoti + naula_luoti + leiviskä_luoti
+yhteensa_luoti = luoti + naula_luoti + leiviska_luoti
 yhteensa_gramma = yhteensa_luoti * 13.3
 kilogramma = int(yhteensa_gramma /1000)
 gramma = yhteensa_gramma - (kilogramma * 1000)
 print("massa nykymittojen mukaan:")
 print(f"{kilogramma} kilogrammaa ja {gramma: .2f} grammaa")
 
-print("tehtävä_6")
+print("tehtava_6")
 import random
 koodi1 = "".join([str(random.randint(0, 9)) for _ in range(3)])
 koodi2 = "".join([str(random.randint(1, 6)) for _ in range(4)])

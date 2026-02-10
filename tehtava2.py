@@ -32,19 +32,19 @@ print(f"kl_keskiarvo on {kl_keskiarvo: .2f}")
 
 
 print("tehtävä_5")
-leiviska = float((input("anna leiviskat")))
+leiviskä = float((input("anna leiviskät")))
 naula = float((input("anna naulat")))
 luoti = float((input("anna luodit")))
-leiviska_luoti = leiviska * 20 * 32
+leiviskä_luoti = leiviskä * 20 * 32
 naula_luoti = naula * 32
-yhteensa_luoti = luoti + naula_luoti + leiviska_luoti
+yhteensa_luoti = luoti + naula_luoti + leiviskä_luoti
 yhteensa_gramma = yhteensa_luoti * 13.3
 kilogramma = int(yhteensa_gramma /1000)
 gramma = yhteensa_gramma - (kilogramma * 1000)
 print("massa nykymittojen mukaan:")
 print(f"{kilogramma} kilogrammaa ja {gramma: .2f} grammaa")
 
-print("tehtava_6")
+print("tehtävä_6")
 import random
 koodi1 = "".join([str(random.randint(0, 9)) for _ in range(3)])
 koodi2 = "".join([str(random.randint(1, 6)) for _ in range(4)])

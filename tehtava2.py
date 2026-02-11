@@ -44,6 +44,7 @@ gramma = yhteensa_gramma - (kilogramma * 1000)
 print("massa nykymittojen mukaan:")
 print(f"{kilogramma} kilogrammaa ja {gramma} grammaa")
 
+
 print("tehtava_6")
 import random
 koodi1 = "".join([str(random.randint(0, 9)) for _ in range(3)])

@@ -35,10 +35,10 @@ print("tehtava_5")
 leiviska = float((input("anna leiviskat")))
 naula = float((input("anna naulat")))
 luoti = float((input("anna luodit")))
-leiviska_luoti = leiviska * 20 * 32
-naula_luoti = naula * 32
-yhteensa_luoti = luoti + naula_luoti + leiviska_luoti
-yhteensa_gramma = yhteensa_luoti * 13.3
+leiviska_luoti = (leiviska * 20 * 32)
+naula_luoti = (naula * 32)
+yhteensa_luoti = (luoti + naula_luoti + leiviska_luoti)
+yhteensa_gramma = (yhteensa_luoti * 13.3)
 kilogramma = int(yhteensa_gramma /1000)
 gramma = yhteensa_gramma - (kilogramma * 1000)
 print("massa nykymittojen mukaan:")
